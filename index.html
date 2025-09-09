@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+   
+</head>
+<body>
+     <div class="calculator-card">
+        <h1>Medidor de IMC</h1>
+        
+        <p class="label"><strong>Adicione seu peso corporal (Kg)</strong></p>
+        <input type="number" id="peso" placeholder="ex: 70kg" step="1" min="10" max="180"> 
+        <!-- step="1" força o input a aceitar apenas números inteiros -->
+        
+        <p class="label"><strong>Agora adicione sua altura (m)</strong></p>
+        <input type="number" id="altura" placeholder="ex: 1.75m" step="0.01" min="0.90" max="2.50">
+
+        <button id="calculate-btn">Calcular IMC</button>
+        
+        <!-- O resultado da função será inserido aqui -->
+    </div>
+    
+    <div id="atencao">
+        <strong>Atenção:</strong> O IMC é uma medida baseada apenas no peso e na altura, e não considera a composição corporal. Pessoas com muita massa muscular, como atletas, podem ter um IMC elevado e ainda assim apresentar baixo percentual de gordura. Por isso, o IMC deve ser interpretado junto com outras avaliações para uma análise mais precisa da saúde.
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
