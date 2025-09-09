@@ -19,3 +19,5 @@ Um projeto simples desenvolvido como parte dos estudos em lógica de programaç�
 2.  Abra o arquivo `index.html` em qualquer navegador de internet.
 3.  Insira seu peso e altura nos campos indicados.
 4.  Clique no botão "Calcular" para ver o resultado.
+<img width="1920" height="997" alt="image" src="https://github.com/user-attachments/assets/a1902b33-6640-4a1a-b44f-5b759d17622c" />
+
