@@ -1,4 +1,4 @@
-#  Calculadora de IMC IMC-calculator
+#  Calculadora de IMC   (IMC-calculator)
 
 Um projeto simples desenvolvido como parte dos estudos em lógica de programação e desenvolvimento web. A aplicação calcula o Índice de Massa Corporal (IMC) a partir do peso e altura fornecidos pelo usuário.
 
