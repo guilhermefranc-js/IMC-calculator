@@ -113,3 +113,39 @@
             margin-top: 15px;
             width: 100%;
         }
+
+
+        .resultado-container {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para cada status de IMC */
+.resultado-container.abaixo-peso {
+    background-color: #3498db; /* Azul */
+    color: white;
+}
+.resultado-container.saudavel {
+    background-color: #2ecc71; /* Verde */
+    color: white;
+}
+.resultado-container.sobrepeso {
+    background-color: #f39c12; /* Laranja */
+    color: white;
+}
+.resultado-container.obesidade {
+    background-color: #e74c3c; /* Vermelho */
+    color: white;
+}
+
+/* Estilo para mensagens de erro */
+.resultado-container.erro {
+    background-color: #333;
+    color: #e74c3c;
+    font-weight: bold;
+}
